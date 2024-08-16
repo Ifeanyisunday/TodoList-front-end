@@ -8,8 +8,8 @@ html{
 }
 
 body{
-    background-image: url("/images/bluebg.jpg");
-    /*background-color: #FAF3E0;*/
+    /*background-image: url("/images/bluebg.jpg");*/
+    background-color: #195af8;
     background-position: center;
 }
 
@@ -19,5 +19,31 @@ body{
     width: 40vw;
     margin-left: 550px;
     border-radius: 30px;
+}
+
+img{
+    scale: 0.25;
+    margin-top: -250px;
+    margin-left: -150px;
+}
+
+.form-div{
+    margin-top: -40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: space-evenly;
+}
+
+button{
+    font-family: Poppins sans-serif;
+    color: white;
+    width: 11vw;
+    height: 6vh;
+    background-color: #195af8;
+    border: none;
+    margin-left: 290px;
+    font-size: 20px;
+    border-radius: 20px;
 }
 

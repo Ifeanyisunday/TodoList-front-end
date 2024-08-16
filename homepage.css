@@ -1,0 +1,16 @@
+.navBar {
+    display: flex;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 50%;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+ul li{
+    font-family: Poppins sans-serif;
+}

@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #195af8;
+    margin: 50px 500px 0 500px;
+}
+
+h2{
+    text-align: center;
+}
+
+#titleInput {
+    width: 25vw;
+    height: 4vh;
+    margin: 0 10px 10px 170px;
+    justify-content: center;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    margin: 10px 500px;
+}
+
+ul li:hover {
+    background: #ddd;
+}
