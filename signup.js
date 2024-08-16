@@ -1,6 +1,6 @@
-const form = document.querySelector("#signup-form");
+const signup = document.querySelector("#signup-form");
 
-form.addEventListener( "submit",async (e) =>{
+signup.addEventListener( "submit",async (e) =>{
     e.preventDefault();
     const userName = document.getElementById("username-input").value
     const email = document.getElementById("user-email").value
