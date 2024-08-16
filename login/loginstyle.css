@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    background-image: url("/images/bluebg.jpg");
+    background-position: center;
+}
+
+.container{
+    background-color: white;
+    height: 100vh;
+    width: 40vw;
+}
+
+.form-div{
+    width: 32vw;
+    height: 50vh;
+    padding: 300px 0 150px 140px;
+}
+
+form h1{
+    margin-left: 160px;
+    color: #492ae3;
+}
+
+#username-input {
+    margin-top: 40px;
+    width: 20vw;
+    height: 4vh;
+}
+
+#user-email{
+    width: 20vw;
+    height: 6vh;
+    margin-left: 8px;
+    margin-top: 3px;
+}
+
+#user-password{
+    width: 20vw;
+    height: 6vh;
+    margin-top: 15px;
+}
+
+button{
+    width: 8vw;
+    height: 5vh;
+    margin-left: 28px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: #3939eb;
+    background-color: #3939eb;
+    color: white;
+}
+
+p{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+label{
+    color: #1818dd;
+}
+
+imag{
+    color: #1818dd;
+}
+
+#btn{
+    margin-top: 30px;
+    margin-left: 135px;
+}
