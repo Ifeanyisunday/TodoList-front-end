@@ -12,7 +12,8 @@
 ul{
     list-style: none;
     display: flex;
-    margin-left: 50%;
+    flex-direction: row;
+    margin-left: 45%;
     gap: 4rem;
     justify-content: space-evenly;
 }
@@ -64,4 +65,8 @@ p{
     font-family: "Poppins", serif;;
     margin-top: -15px;
     margin-left: 37%;
+}
+
+#user-pro:hover{
+    background-color: #d1cbcb;
 }

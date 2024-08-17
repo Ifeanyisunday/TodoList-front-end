@@ -17,7 +17,7 @@ loginForm.addEventListener("submit", async (e) => {
 
     if (result.successful) {
         alert("Successfully logged in")
-        window.location.href = "userpage.html";
+        window.location.href = "homesignin.html";
     }else{
         alert(result.userResponse)
     }

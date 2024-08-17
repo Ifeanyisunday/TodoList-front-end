@@ -8,7 +8,8 @@ html{
 }
 
 body{
-    background-image: url("/images/bluebg.jpg");
+    /*background-image: url("/images/bluebg.jpg");*/
+    background-color: #027398;
     background-position: center;
 }
 
@@ -28,7 +29,7 @@ body{
 
 form h1{
     margin-left: 160px;
-    color: #492ae3;
+    color: black;
 }
 
 #username-input {
@@ -56,8 +57,8 @@ button{
     margin-left: 28px;
     margin-top: 10px;
     border-radius: 10px;
-    border: #3939eb;
-    background-color: #3939eb;
+    border: #027398;
+    background-color: #027398;
     color: white;
 }
 
@@ -67,7 +68,7 @@ p{
 }
 
 label{
-    color: #1818dd;
+    color: #027398;
 }
 
 imag{

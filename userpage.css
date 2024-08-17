@@ -9,7 +9,7 @@ html{
 
 body{
     /*background-image: url("/images/bluebg.jpg");*/
-    background-color: #195af8;
+    background-color: #027398;
     background-position: center;
 }
 
@@ -27,8 +27,8 @@ img{
     margin-left: -150px;
 }
 
-.form-div{
-    margin-top: -40%;
+#act-btn{
+    margin-top: -300px;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -40,10 +40,20 @@ button{
     color: white;
     width: 11vw;
     height: 6vh;
-    background-color: #195af8;
+    background-color: #027398;
     border: none;
     margin-left: 290px;
     font-size: 20px;
     border-radius: 20px;
+}
+
+#logout-email{
+    width: 10vw;
+    height: 4vh;
+    margin-left: 15.5vw;
+}
+
+#addtask-btn{
+    margin-top: -150px;
 }
 

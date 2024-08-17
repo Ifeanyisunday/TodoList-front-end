@@ -17,7 +17,7 @@ signup.addEventListener( "submit",async (e) =>{
     const data = await result.json()
 
     if (data.successful) {
-        window.location.href = "homepage.html";
+        window.location.href = "homesignin.html.html";
     }else{
         alert(data.userResponse)
     }
