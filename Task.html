@@ -9,19 +9,34 @@
 <body>
     <div id="header">
         <div class="titleInput">
-            <h2>Ify TodoApp</h2>
+            <h2>Task management</h2>
             <input type="text" id="titleInput" placeholder="Title...">
-            <button onclick="addNewElement()" class="addBtn">Add</button>
+            <button class="addBtn">Add</button>
         </div>
     </div>
 
+    <div class="pop-up">
+        <div class="close-btn">&times;</div>
+        <form class="input-form">
+            <h2>Create Task</h2>
+            <div>
+                <input type="text" name="name" id="task-title" placeholder="Title">
+            </div>
+            <div>
+                <input type="text" name="note" id="task-note" placeholder="Note">
+            </div>
+            <div>
+                <input type="number" name="priority" id="priority" placeholder="Priority">
+            </div>
+            <div>
+                <input type="email" name="email" id="user-email" placeholder="Email">
+            </div>
+            <button class="submit-btn" type="submit">Submit</button>
+        </form>
+    </div>
+
     <ul id="TaskList">
-        <li>Hit the gym</li>
-        <li class="checked">Pay bills</li>
-        <li>Meet George</li>
-        <li>Buy eggs</li>
-        <li>Read a book</li>
-        <li>Organize office</li>
+
     </ul>
 
 
