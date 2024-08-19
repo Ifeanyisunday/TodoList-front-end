@@ -79,6 +79,7 @@ h2{
 #task-title{
     width: 15vw;
     height: 3vh;
+    margin-top: 2.5%;
 }
 
 #task-note{
@@ -90,13 +91,13 @@ h2{
 #priority{
     width: 15vw;
     height: 3vh;
-    margin-top: 14.5%;
+    margin-top: -15px;
 }
 
 #user-email{
     width: 15vw;
     height: 3vh;
-    margin-top: 12%;
+    margin-top: 14%;
 }
 
 .submit-btn{
