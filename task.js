@@ -22,7 +22,7 @@ newform.addEventListener("submit", async (e) => {
         const ulTag = document.querySelector("#TaskList");
         const createList = document.createElement("li")
         ulTag.appendChild(createList);
-        createList.textContent = `${title}, ${note}, ${priority}}`;
+        createList.textContent = `${title}, ${note}, ${priority}`;
         const popup = document.querySelector("#pop-up")
         popup.style.opacity = "0";
     }else{
