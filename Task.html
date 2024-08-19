@@ -10,15 +10,14 @@
     <div id="header">
         <div class="titleInput">
             <h2>Task management</h2>
-            <input type="text" id="titleInput" placeholder="Title...">
-            <button class="addBtn">Add</button>
+            <button id="addBtn">Add</button>
         </div>
     </div>
 
-    <div class="pop-up">
-        <div class="close-btn">&times;</div>
-        <form class="input-form">
-            <h2>Create Task</h2>
+    <div id="pop-up">
+        <div id="close-btn">&times;</div>
+        <h2>Create Task</h2>
+        <form id="input-form">
             <div>
                 <input type="text" name="name" id="task-title" placeholder="Title">
             </div>
@@ -26,7 +25,7 @@
                 <input type="text" name="note" id="task-note" placeholder="Note">
             </div>
             <div>
-                <input type="number" name="priority" id="priority" placeholder="Priority">
+                <input type="text" name="priority" id="priority" placeholder="Priority">
             </div>
             <div>
                 <input type="email" name="email" id="user-email" placeholder="Email">

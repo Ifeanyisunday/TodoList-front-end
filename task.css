@@ -8,8 +8,9 @@ ul{
 }
 
 #header {
-    background-color: #195af8;
+    background-color: #027398;
     margin: 50px 500px 0 500px;
+    height: 50%;
 }
 
 h2{
@@ -37,32 +38,42 @@ ul li:hover {
     background: #ddd;
 }
 
-.pop-up{
-    background-color: #195af8;
+#pop-up{
+    opacity: 0;
+    border-radius: 10px;
+    background-color: #027398;
     scale: 1.3;
     width: 20vw;
-    margin-left: 23%;
+    margin-left: 39.5%;
     margin-top: 5%;
+    height: 38vh;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-/*.input-form{*/
-/*    background-color: #195af8;*/
-/*}*/
-
-.input-form div{
-    margin-left: 25%;
+#input-form div{
+    margin-left: 12.5%;
     height: 5vh;
 }
 
-.input-form h2{
-    margin-top: 25px;
-    margin-left: 43%;
+h2{
+    text-align: center;
+    /*margin-left: 3%;*/
     font-size: 20px;
+    color: white;
 }
 
-.close-btn{
-    float: right;
-    margin-right: 41.5%;
+#pop-up #close-btn{
+    margin-left: 95%;
+    width: 15px;
+    height: 15px;
+    background: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    /*float: right;*/
+    /*margin-right: 20%;*/
 }
 
 #task-title{
@@ -73,22 +84,32 @@ ul li:hover {
 #task-note{
     width: 15vw;
     height: 10vh;
-    margin-top: -5px;
+    margin-top: -10px;
 }
 
 #priority{
     width: 15vw;
     height: 3vh;
-    margin-top: 8.5%;
+    margin-top: 14.5%;
 }
 
 #user-email{
     width: 15vw;
     height: 3vh;
-    margin-top: 7.5%;
+    margin-top: 12%;
 }
 
 .submit-btn{
-    margin-top: 5%;
-    margin-left: 18vw;
+    margin-top: 10%;
+    margin-left: 6.8vw;
+    height: 3.5vh;
+    width: 7vw;
+    border: none;
+    border-radius: 7px;
+}
+
+#addBtn{
+    width: 30vw;
+    height: 5vh;
+    margin-left: 15%;
 }
